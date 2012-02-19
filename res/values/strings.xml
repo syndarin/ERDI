@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ERDIActivity!</string>
+    <string name="app_name">Каталог салютов \"ЭРДИ\"</string>
+    <string name="description_logo">Логотип ЭРДИ</string>
+    <string name="description_button">Кнопка</string>
+    <string name="descriptionIcon">Иконка</string>
+    <string name="labelHelloMessageInputStore">Вас приветствует \"Каталог салютов\"\nПожалуйста, перед первым запуском укажите номер магазина:</string>
+    <string name="labelTextButtonEnterStoreNumber">Вход</string>
+    <string name="labelButtonDetailedMoveNext">Следующая модель</string>
+    <string name="labelButtonDetailedMovePrevious">Предыдущая модель</string>
+    <string name="labelButtonDetailedBack">Назад</string>
+    <string name="labelButtonSettingsSynchronize">Синхронизация БД</string>
+    <string name="labelButtonSettingsDownload">Загрузка ожидающих файлов</string>
+    <string name="labelButtonDownloadNow">Начать загрузку</string>
+    <string name="labelButtonDownloadLater">Отложить</string>
+    <string name="messageEmptyStoreNumber">Введите номер магазина!</string>
+    <string name="messageInvalidFormatStoreNumber">Неверный формат номера магазина! Введите целое число!</string>
+    <string name="messagePreferencesNotFound">Неизвестная ошибка извлечения настроек!</string>
+    <string name="titleFirstLaunchMasterDialog">Мастер первого запуска</string>
+    <string name="createExternalStorageError">Невозможно создать папку приложения на SD-карте! Проверьте наличие карты в устройстве!</string>
+    <string name="detailedLabelTitle">Название</string>
+    <string name="sortPriceLabel">Цена</string>
+    <string name="sortTimeLabel">Длительность</string>
+    <string name="sortShotsLabel">Заряды</string>
+    <string name="messageVideoUnavailable">Извините, видео для данной модели недоступно!</string>
+    <string name="messageNoCategorySelected">Загрузите категорию товаров, прежде чем сортировать!</string>
+    <string name="detailedNavigationError">Неизвестная ошибка при переходе!</string>
+    <string name="detailedNavigationErrorLast">Эта модель последняя в наборе!</string>
+    <string name="detailedNavigationErrorFirst">Эта модель первая в наборе!</string>
+    <string name="messageNoInternetConnection">Отсутствует подключение к Интернет!</string>
+    <string name="messageNoModelsFavourite">В категории \"Избранное\" пока нет моделей!</string>
+    <string name="messageNoGoodsInCategory">В данной категории пока нет товаров!</string>
+    <string name="gridLabelPrice">Цена</string>
+    <string name="gridLabelCurrency">грн.</string>
+    <string name="messageFavouritesDeleted">Категория \"Избранное\" была очищена!</string>
+    <string name="titleSettingsDialog">Служебные функции</string>
+    <string name="textDownloadDialog">Есть файлы, ожидающие загрузки. Как Вы желаете поступить?</string>
+    <string name="titleDownloadDialog">Менеджер загрузок</string>
+</resources>

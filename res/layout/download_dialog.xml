@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="200dip"
+    android:minWidth="300dip"
+    android:orientation="vertical"
+    android:padding="10dip" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textDownloadDialog"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/buttonDownloadNow"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="@string/labelButtonDownloadNow" />
+        <Button
+            android:id="@+id/buttonDownloadLater"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="@string/labelButtonDownloadLater" />
+    </LinearLayout>
+</LinearLayout>

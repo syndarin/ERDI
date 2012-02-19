@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- layout with video, picture & characteristics -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal" >
+        <!-- left side with video & navigation -->
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="40"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/detailedViewIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="90"
+                android:scaleType="center" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:orientation="horizontal" >
+                <ImageButton
+                    android:id="@+id/buttonDetailedMovePrevious"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_move_back"
+                    android:text="@string/labelButtonDetailedMovePrevious"
+                    android:textSize="10sp" />
+                <ImageButton
+                    android:id="@+id/buttonDetaildeBack"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_return"
+                    android:text="@string/labelButtonDetailedBack"
+                    android:textSize="10sp" />
+                <ImageButton
+                    android:id="@+id/buttonDetailedMoveNext"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_move_next"
+                    android:text="@string/labelButtonDetailedMoveNext"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- right side layout with picture & characteristics -->
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="60"
+            android:background="@drawable/back_description"
+            android:orientation="vertical" >
+            <!-- layout with description -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="40"
+                android:orientation="vertical"
+                android:padding="20dip" >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:text="@string/detailedLabelTitle"
+                        android:textColor="#FFEEEEBB"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/detailedTitle"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:text="@string/sortShotsLabel"
+                        android:textColor="#FFEEEEBB"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/detailedShots"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:text="@string/sortTimeLabel"
+                        android:textColor="#FFEEEEBB"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/detailedTime"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:text="@string/sortPriceLabel"
+                        android:textColor="#FFEEEEBB"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/detailedPrice"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/detailedViewDescription"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dip"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!-- layout with image buttons video&favourites -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageButton
+                    android:id="@+id/buttonPlayVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/button_play" />
+                <ImageButton
+                    android:id="@+id/detailedButtonFav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dip"
+                    android:background="@null"
+                    android:contentDescription="@string/description_button"
+                    android:scaleType="center" />
+            </LinearLayout>
+            <!-- layout with navigation buttons -->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

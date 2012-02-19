@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TOOL PANEL WITH BUTTONS -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tool_back"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    <ImageButton
+        android:id="@+id/buttonSortPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/price_circle" />
+    <ImageButton
+        android:id="@+id/buttonSortTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:background="@null"
+        android:src="@drawable/time_circle" />
+    <ImageButton
+        android:id="@+id/buttonSortShots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:background="@null"
+        android:src="@drawable/shots_circle" />
+    <ImageButton
+        android:id="@+id/buttonFavourites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dip"
+        android:background="@null"
+        android:contentDescription="@string/description_button"
+        android:scaleType="fitXY"
+        android:src="@drawable/favourites" />
+    <ImageButton
+        android:id="@+id/buttonSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:background="@null"
+        android:contentDescription="@string/description_button"
+        android:scaleType="fitXY"
+        android:src="@drawable/settings" />
+</LinearLayout>
